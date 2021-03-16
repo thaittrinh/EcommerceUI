@@ -13,22 +13,16 @@ body{
   display: flex;
   align-items: center;
   padding: 20px;
-  margin: auto ---
 }
 
 nav{
   flex: 1;
   text-align: right;
-   margin: auto ---
 }
-
-
-
 
 nav ul{
   display: inline-block;
   list-style-type: none;
-   margin: auto ---
 }
 
 nav ul li{
