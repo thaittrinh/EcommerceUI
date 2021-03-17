@@ -21,129 +21,69 @@
         <ul id="MenuItems">
           <li><a href="index.html">Home</a></li>
           <li><a href="products.html">Products</a></li>
-          <li><a href="">About</a></li>
+          <li><a href="product.html">About</a></li>
           <li><a href="">Contact</a></li>
-          <li><a href="">Acount</a></li>
+          <li><a href="account.html">Acount</a></li>
         </ul>
       </nav>
-      <img src="images/cart.png" width="30px" height="30px">
+      <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
       <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
     </div>
   </div>
 
-  <!------------ featured products---------------->
+
+  <!---------single product detail----------->
+  <div class="small-container single-product">
+    <div class="row">
+      <div class="col-2">
+        <img src="images/gallery-1.jpg" width="100%" id="ProductImg">
+        <div class="small-img-row">
+          <div class="small-img-col">
+            <img src="images/gallery-1.jpg" width="100%" class="small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="images/gallery-2.jpg" width="100%" class="small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="images/gallery-3.jpg" width="100%" class="small-img">
+          </div>
+          <div class="small-img-col">
+            <img src="images/gallery-4.jpg" width="100%" class="small-img">
+          </div>
+        </div>
+      </div>
+      <div class="col-2">
+        <p>Home / T-Shirt</p>
+        <h1>Red Printd T-Shirt by HRX</h1>
+        <h4>$50.0</h4>
+        <select>
+          <option>Select Size</option>
+          <option>XXL</option>
+          <option>XX</option>
+          <option>Large</option>
+          <option>Medium</option>
+          <option>Small</option>
+        </select>
+        <input type="number" value="1">
+        <a href="" class="btn">Add To Cart</a>
+
+        <h3>Product Detail <i class="fa fa-indent"></i></h3>
+        <p>Give your summer wardrobe a style upgrade with the HRX Men's Active T-Shirt. Team is with a pair or shorts 
+        for your morning workout or a denims for an evening out with the guys.</p>
+      </div>
+    </div>
+  </div>
+
+  <!------------ title---------------->
   <div class="small-container">
     <div class="row row-2">
-      <h2>All Products</h2>
-      <select>
-        <option>Default Shorting</option>
-        <option>Short By Price</option>
-        <option>Short By Popularity</option>
-        <option>Short By Rating</option>
-        <option>Short By Sale</option>
-      </select>
+      <h2>Related Products</h2>
+      <p>View More</p>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-4">
-        <img src="images/product-1.jpg" alt="">
-        <h4>Red Printed Tshirt</h4>
-        <div class="rating">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </div>
-        <p>$50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="images/product-2.jpg" alt="">
-        <h4>Red Printed Tshirt</h4>
-        <div class="rating">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-half-o" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </div>
-        <p>$50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="images/product-3.jpg" alt="">
-        <h4>Red Printed Tshirt</h4>
-        <div class="rating">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </div>
-        <p>$50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="images/product-4.jpg" alt="">
-        <h4>Red Printed Tshirt</h4>
-        <div class="rating">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </div>
-        <p>$50.00</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-4">
-        <img src="images/product-5.jpg" alt="">
-        <h4>Red Printed Tshirt</h4>
-        <div class="rating">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </div>
-        <p>$50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="images/product-6.jpg" alt="">
-        <h4>Red Printed Tshirt</h4>
-        <div class="rating">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-half-o" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </div>
-        <p>$50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="images/product-7.jpg" alt="">
-        <h4>Red Printed Tshirt</h4>
-        <div class="rating">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </div>
-        <p>$50.00</p>
-      </div>
-      <div class="col-4">
-        <img src="images/product-8.jpg" alt="">
-        <h4>Red Printed Tshirt</h4>
-        <div class="rating">
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star" aria-hidden="true"></i>
-          <i class="fa fa-star-o" aria-hidden="true"></i> 
-          <i class="fa fa-star-o" aria-hidden="true"></i>
-        </div>
-        <p>$50.00</p>
-      </div>
-    </div>
+  <!------------ products---------------->
+  <div class="small-container">
     <div class="row">
       <div class="col-4">
         <img src="images/product-9.jpg" alt="">
@@ -195,13 +135,6 @@
       </div>
     </div>
 
-    <div class="page-btn">
-      <span>1</span>
-      <span>2</span>
-      <span>3</span>
-      <span>4</span>
-      <span>&#8594;</span>
-    </div>
   </div>
 
   <!-------------footer------------------>
@@ -255,5 +188,26 @@
       }
     }
   </script>
+
+<!-------------js for product gallery------------>
+  <script>
+    var productImg = document.getElementById("ProductImg");
+    var smallImgs = document.getElementsByClassName("small-img");
+
+    smallImgs[0].onclick = function() {
+
+      productImg.src = smallImgs[0].src;
+    }
+    smallImgs[1].onclick = function() {
+      productImg.src = smallImgs[1].src;
+    }
+    smallImgs[2].onclick = function() {
+      productImg.src = smallImgs[2].src;
+    }
+    smallImgs[3].onclick = function() {
+      productImg.src = smallImgs[3].src;
+    }
+  </script>
+
 </body>
 </html>
