@@ -91,6 +91,12 @@ p{
   margin-top: 70px;
 }
 
+.menu-icon{
+  width: 28px;
+  margin-left: 20px;
+  display: none;
+}
+
 
 /*------------- categories ---------------*/
 .categories{
@@ -239,6 +245,8 @@ small{
   filter: grayscale(0);
 }
 
+
+/*------ footer ------*/
 .footer{
   background: #000;
   color: #8a8a8a;
@@ -300,13 +308,6 @@ ul{
 
 .copyright{
   text-align: center;
-}
-
-
-.menu-icon{
-  width: 28px;
-  margin-left: 20px;
-  display: none;
 }
 
 /*------------all products-------------*/
